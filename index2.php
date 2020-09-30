@@ -1,3 +1,4 @@
+//THIS IS A PHP FILE
 <?php 
 if (isset($_POST['submit'])) {
 
