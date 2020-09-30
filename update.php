@@ -13,12 +13,12 @@ $idate=$_POST['idate'];
 
 
 
-$servername = "localhost";
+$server_name = "localhost";
 $username   = "root";
 $password   = "";
 $dbname     = "rtosystem";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($server_name, $username, $password, $dbname);
 
 if ($conn->connect_error) 
 {
